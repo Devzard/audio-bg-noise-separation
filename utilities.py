@@ -121,7 +121,7 @@ def plot_specgram(specgram, audio_len, sampling_rate):
     -> audio_len : length of audio in seconds
     -> sampling_rate : sampling_rate of audio
     """
-    plt.imshow(np.transpose(specgram), extent=[0,audio_len,0,sampling_rate//2], vmin=-30, vmax=0, cmap='rainbow', origin='lower', aspect='auto')
+    plt.imshow(np.transpose(specgram), extent=[0,audio_len,0,sampling_rate//2], vmin=-30, vmax=0, cmap='magma', origin='lower', aspect='auto')
     # extent :
     #   x-axis limits : 0 to 5 seconds (time)
     #   y-axis limits : 0 to sampling rate (frequency)
@@ -134,7 +134,7 @@ def plot_specgram(specgram, audio_len, sampling_rate):
 
 
 if __name__ == "__main__":
-    file_path = "./data/sample1/source.mp3"
+    file_path = "./data/sample1/source.wav"
     samples, sampling_rate = load_audio(file_path)
     # plot_waveshow_td_representation(samples, sampling_rate)
 
