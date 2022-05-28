@@ -9,9 +9,13 @@ Data available at : [Google Drive](https://drive.google.com/drive/folders/18wK0p
 Download "data" directory and paste at 
 > "/"
 
-### Requirements
+### REQUIREMENTS
 
 Create conda environment using :
 > conda create --name <env\> python=3.10 --file requirements.txt
 
 conda requirements file : [requirements.txt](requirements.txt)
+
+conda environment file : [environment.yml](environment.yml)
+
+conda environment history file : [environment_history.yml](environment_history.yml)
