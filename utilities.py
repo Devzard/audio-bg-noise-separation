@@ -139,9 +139,10 @@ if __name__ == "__main__":
     # plot_waveshow_td_representation(samples, sampling_rate)
 
     freq_data, mag = perform_fft(samples, sampling_rate)
+    plot_fd_representation(freq_data, mag)
 
 
     specgramData = spectrogram(samples, sampling_rate, max_freq=max(freq_data))
-    plot_specgram(specgramData, len(samples)/sampling_rate, sampling_rate)    
+    # plot_specgram(specgramData, len(samples)/sampling_rate, sampling_rate)    
 
 
