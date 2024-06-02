@@ -1,4 +1,9 @@
 # Background Noise separation
+-----
+
+*Mini Project done as a part of partial fulfillment of requirements of B.Tech 6th semester in Computer Science and Engg. of ASTU (Assam Science and Technology University). See major project here*: [Blog Generation Application](https://github.com/Transformers-G5/blog-generation)
+
+-----
 
 An application to separate out background noise from mono sound audio files.
 
